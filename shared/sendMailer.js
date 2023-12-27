@@ -18,6 +18,7 @@ var mailOptions={
     text:text
 };
 
+
 transporter.sendMail(mailOptions,(error,info)=>{
     if(error){
         console.log("Error in sending mail",error)

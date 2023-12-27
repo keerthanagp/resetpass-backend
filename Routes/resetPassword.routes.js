@@ -14,3 +14,4 @@ router.get("/:userId/:token",service.verifyToken)
 router.post("/:userId/:token",service.verifyAndUpdatePassword)
 
 module.exports=router
+
