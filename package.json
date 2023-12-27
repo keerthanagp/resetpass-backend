@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-passwordReset",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,15 @@
   "author": "Mayuresan",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.0.1",
+    "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "joi": "^17.4.2",
+    "express": "^4.18.2",
+    "joi": "^17.11.0",
     "jsonwebtoken": "^8.5.1",
-    "mongodb": "^4.1.3",
-    "nodemailer": "^6.7.0"
+    "mongodb": "^4.17.2",
+    "mongoose": "^8.0.3",
+    "nodemailer": "^6.9.7"
   }
 }

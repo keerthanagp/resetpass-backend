@@ -11,10 +11,7 @@ const {registerSchema,loginSchema}=require("../shared/schema")
 const service={
     async register(req,res){
         try{
-
-            // validating using JOI schema
             const {value,error} =  await registerSchema.validate(req.body)
-            // console.log(validate.error.details)
             if(error) return res.status(400).send({Error:error.details[0].message})
 
             
